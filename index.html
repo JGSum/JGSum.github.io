@@ -6,7 +6,7 @@
   <style>
     /* GLOBAL STYLES */
     a {
-      color: #f00;
+      color: #f00;/*red*/
     }
     html, body {
       margin: 0;
@@ -21,13 +21,13 @@
    }
    /*HERO STYLES*/
    .full-hero {
-    background-color: #c7dbfc;
+    background-color: #c7dbfc;/*light blue*/
     height: 50vh;
   }
 
   /* SOCIAL STYLES */
   .social-link {
-    background: rgba(150, 150, 150, 0.5);
+    background: rgba(150, 150, 150, 0.5);/*grey*/
     color: blue;
     display: inline-block;
     height: 36px;
@@ -44,6 +44,8 @@
   /* BIO STYLES */
   .bio-wrapper {
     font-size: 24px;
+    margin: 0 auto 40px;
+    max-width: 960px;
     overflow: hidden;
   }
   .bio-box {
@@ -51,14 +53,21 @@
     box-sizing: border-box;
     float: left;
     font-size: 1rem;
-    padding: 2%;
-    width: 25%;
+    margin: 40px 1% 0;
+    padding: 2% 2% 2% 2%;
+    width: 23%;
   }
   .bio-box > a {
-    color: #c68bf9;
+    color: #c68bf9;/*purplish pink*/
   }
   .bio-box h3 {
+    color: #fff;/*white*/
     font-size: 1.5em;
+    margin: -40px 0 1em;
+    text-align: center;
+  }
+  .bio-box img {
+    width: 100%;
   }
   .bio-copy {
     font-size: 1em;
@@ -84,12 +93,12 @@
     </ul>
   </div>
   <h2>I'm an h2</h2>
-</div>
 
 <div class="bio-wrapper">
   <div class="bio-box">
+     <img src="https://placekitten.com/g/400/400">
     <h3>Michael Hartl</h3>
-    <a href="https://twitter.com/mhartl" class="social-link show">here</a>
+    <a href="https://twitter.com/mhartl" class="social-link">here</a>
     <div class="bio-copy">
       <p>
         Known for his dazzling charm, rapier wit, and unrivaled humility,
@@ -107,6 +116,7 @@
     </div>
   </div>
   <div class="bio-box">
+     <img src="https://placekitten.com/g/400/400">
     <h3>Lee Donahoe</h3>
     <a href="https://twitter.com/leedonahoe" class="social-link">here</a>
     <div class="bio-copy">
@@ -119,6 +129,7 @@
     </div>
   </div>
   <div class="bio-box">
+     <img src="https://placekitten.com/g/400/400">
     <h3>Nick Merwin</h3>
     <a href="https://twitter.com/nickmerwin" class="social-link">here</a>
     <div class="bio-copy">
@@ -131,6 +142,7 @@
     </div>
   </div>
   <div class="bio-box">
+     <img src="https://placekitten.com/g/400/400">
     <h3>??</h3>
       <p>
         The Future
@@ -166,3 +178,4 @@
     </p>
   </body>
   </html>
+  <!-- negative margins 4.6.2 -->

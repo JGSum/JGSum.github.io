@@ -7,7 +7,7 @@ padding: 0 30px;
 body{
   display: flex;
   flex-direction: column;     
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
   min-height: 100vh;     
 }
 .content-container {
@@ -41,6 +41,10 @@ h2 ~ p {
 }
 a {
   color: #6397b5;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', helvetica, sans-serif;
+  font-weight: 100;
 }
 
 
@@ -244,21 +248,21 @@ transform: translate(0,-50%);
 
 /* SOCIAL STYLES */
 .social-link {
-  background: rgba(150, 150, 150, 0.5);
+  background: rgba(150,150,150,0.5);
   border-radius: 99px;
   box-sizing: border-box;
   color: #fff;
   display: inline-block;
   font-family: helvetica, arial, sans-serif;
-  font-size: 1em;
+  font-size: 1.7em;
   font-weight: bold;
-  height: 2.5em;
+  height: 1.5em;
   line-height: 1;
-  padding-top: 0.85em;
+  padding-top: 0.25em;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  width: 2.5em;
+  width: 1.5em;
 }
 .social-list {
   list-style: none;
@@ -309,7 +313,8 @@ transform: translate(0,-50%);
 .callout-copy {
   flex: 0 0 45em;              
   font-size: 0.8rem; 
-  padding: 0 3vw;              
+  padding: 0 3vw;
+  position: relative;          
 }
 
 
@@ -335,6 +340,8 @@ transform: translate(0,-50%);
   margin: -40px 0 1em;
   text-align: center;
   text-transform: uppercase;
+  font-family: 'Satisfy', helvetica, sans-serif;
+  font-weight: 100;
 }
 .bio-box img {
   width: 100%;
@@ -709,4 +716,5 @@ transform: translate(0,-50%);
   .gallery .gallery-info {
     flex: 1;
   }
-}9.5   5:44
+}
+/*10.3.3Exercises*/
